@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --marker-color: rgba(255, 255, 255, 0.5);
+  --product-glow: rgba(34, 197, 94, 0.2);
+  --neon-green: rgba(34, 197, 94, 1);
+  --neon-cyan: rgba(78, 255, 237, 1);
+  --glass-bg: rgba(10, 13, 22, 0.8);
+  --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+body {
+  font-family: 'Space Grotesk', 'Inter', 'Cairo', 'Noto Kufi Arabic', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1a1a1a;
+  color: #FFFFFF;
+}
